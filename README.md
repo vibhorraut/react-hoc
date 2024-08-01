@@ -1,3 +1,16 @@
+# Final output
+![react-hoc](https://github.com/user-attachments/assets/7fb3fb53-905d-4300-8ab1-0c6226cb9f5d)
+
+I create a simple UserComponent that displays user information.
+Create an HOC called withUser that adds user information to UserComponent.
+Use the HOC to wrap UserComponent and render it in the App component.
+
+withUser.js: The withUser HOC adds a user prop to the wrapped component. The user information is hard-coded for simplicity.
+UserComponent.js: A simple functional component that displays user information passed in as props.
+App.js: The main application component that wraps UserComponent with withUser to create EnhancedUserComponent, which is then rendered.
+index.js: Entry point of the application, importing and rendering the App component.
+styles.css: Basic CSS for styling the components.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
